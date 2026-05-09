@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/frivayz/lab_templates -isystem /home/frivayz/lab_templates/build/_deps/googletest-src/googletest/include -isystem /home/frivayz/lab_templates/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -std=gnu++17 -Wall -Wextra -Wpedantic -Werror -fsanitize=address,undefined -fno-sanitize-recover=all
+CXX_FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic -Werror -fsanitize=address,undefined -fno-sanitize-recover=all
 
